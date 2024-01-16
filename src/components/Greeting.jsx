@@ -13,7 +13,7 @@ const Greeting = () => {
       };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-[500px]">
+        <div className="flex flex-col items-center justify-center mt-20">
             <p className="mb-4 text-lg font-bold">{`Send a greeting to ${name ? name : '...'}`}</p>
             <input
                 type="text"
